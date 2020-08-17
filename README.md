@@ -19,3 +19,10 @@ model = classRF_train(X,Y,ntree,mtry,extra_options)
 策树的个数（默认值为 SOO) ;mtry 为分裂属性集中的属性个数（默认值 m =l v'MJ .M 为总的
 属性个数，符号L . 」表示向下取整） ; extra_options 为可选的参数； model 为创建好的随机森林
 分类器。
+
+[Y-hat, votes] = classRF_predict(X,model,extra_options)
+
+其中， X 为待预测样本的输入矩阵，其每一列表示一个变量（属性〉，其每一行表示一个样本；
+model 为创建好的随机森林分类器； extra_options 为可选的参数 ； Y_hat 为待预测样本对应的
+所属类别； votes 为朱格式化的待预测样本输出类别权重，即将待预测样本预测为各个类别的
+决策树个数。
