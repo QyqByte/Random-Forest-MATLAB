@@ -9,6 +9,7 @@ I had achieve these by different ways.
 包括威斯康辛大学医学院的乳腺癌数据集，共包括569个病例，其中，良性357例，恶性212例。该次实现随机选取500组数据作为训练集，剩余69组作为测试集。
 
 包括科罗拉多大学博尔德分校Abhishek Jaiantilal 开发的randomforest-matlab开源工具箱（下载地址https://code.google.com/p/randomforest-matlab/）
+，其复现代码见 main.m 函数。
 
 调用格式为：
 
